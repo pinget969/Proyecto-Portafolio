@@ -2,3 +2,6 @@
     color: var(--titulo-color-h1);
     font-size: 32px;
 }
+.header__titulo{
+    font-size: 52px;
+}

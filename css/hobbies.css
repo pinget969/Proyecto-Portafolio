@@ -1,0 +1,27 @@
+.hobbies{
+    background-color: var(--hobbies__background);
+    padding: 50px;
+}
+.contenedor__hobbies{
+    display: block;
+}
+.Hobbies__titulo{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.contenedor_iconos_hobbies{
+    display: flex;
+    justify-content: center;
+}
+.contenedor_iconos_texto{
+    display: flex;
+    background-color: var(--contenedor__iconos-skills);
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    display: flex;
+     
+    align-items: end;
+    padding: 10px;
+}

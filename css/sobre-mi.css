@@ -1,4 +1,6 @@
-
+.sobre-mi{
+    background-color:var(--sobre-mi-background)
+}
 .contenedor__sobre-mi{
     padding: 60px;
     width: 57%;

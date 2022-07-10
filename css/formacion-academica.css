@@ -1,0 +1,36 @@
+.formacion-academica{
+    display: flex;
+    background-color: var(--formacion-academica-background);
+    height: 581px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor__formacion-academica{
+    display: block
+}
+.formacion_titulo{
+    display: flex;
+    justify-content: center;
+}
+.contenedor_del_contenedor__formacion-academica{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+.contenedor__iconos-formacion-academica{
+    background-color: var(--contenedor__iconos-skills);
+    width: 286px;
+    height: 286px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.nombre-academia-formacion{
+    font-size: 22px;
+}
+.nombre-academia-formacion, .nombre-estado-formacion{
+    margin: 5px;
+}

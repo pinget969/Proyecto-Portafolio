@@ -1,0 +1,27 @@
+.skills{
+    background-color: var(--skills-background);
+    padding: 50px;
+}
+.contenedor-skill{
+    display: block;
+}
+.skills__titulo{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.skill__iconos{
+    display: flex;
+    justify-content: center;
+}
+.contenedor__iconos-skills{
+    background-color: var(--contenedor__iconos-skills);
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    
+    display: flex;
+     
+    align-items: end;
+    padding: 10px;
+}

@@ -9,4 +9,14 @@
 
     /* Colores Titulo */
     --titulo-color-h1:rgb(38, 41, 41);
+
+    /* Background */
+    --sobre-mi-background: #EAF2FD;
+    --skills-background:#F5F5F5;
+    --contenedor__iconos-skills: #ffffff;   
+
+    --hobbies__background:#F5F5F5;
+
+    --formacion-academica-background: #EAF2FD;
+     
 }

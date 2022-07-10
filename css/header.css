@@ -29,6 +29,7 @@
 .header__texto{
     padding: 5px;
     color: var(--header-color-p-a);
+    font-size: 22px;
 }
 .contenedor__vinculo{
     display: flex;
