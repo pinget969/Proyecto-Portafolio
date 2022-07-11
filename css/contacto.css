@@ -1,0 +1,30 @@
+.contenedor__contacto{
+    display: flex;
+    padding: 50px;
+    background-color: var(--contacto-background);
+}
+.contenedor__texto-contacto label{
+    margin: 0 0 0 15px;
+}
+.texto-contato{
+    margin: 15px;
+}
+.formulario-contacto input, textarea{
+    display: flex;  
+    margin: 0 0 0 15px;
+    width: 100%;
+    resize: none;
+}
+.textarea-contacto{
+    resize: none;
+}
+.btn-form{
+    display: flex;  
+    margin: 15px;
+}
+.btn-form{
+    color: #ffffff;
+    background-color: #2A7AE4;
+    border: none;
+    padding: 11px;
+}

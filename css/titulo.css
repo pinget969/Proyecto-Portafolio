@@ -5,3 +5,25 @@
 .header__titulo{
     font-size: 52px;
 }
+.skills__titulo{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.Hobbies__titulo{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.formacion_titulo{
+    display: flex;
+    justify-content: center;
+}
+.experiencia-laboral-titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacto__titulo{
+    margin: 15px;
+}

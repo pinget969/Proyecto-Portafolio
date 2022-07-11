@@ -1,0 +1,88 @@
+
+.experiencia_profesional{
+    padding: 50px;
+}
+/* JUEGO AHORCADO */
+
+.contenedor__principal__ahorcado{
+    padding: 50px;
+}
+.contenedor__ahorcado{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+.contenedor__img-ahorcado{
+    display: flex;
+    width: 767px;
+}
+.img__ahorcado{
+    max-width: 100%;
+    max-height: 100%;
+}
+.contenedor-ahorcado-texto{
+    padding: 15px;
+}
+.contenedor-ahorcado-texto h2{
+    font-size: 22px;
+    margin: 5px;
+}
+.contenedor-ahorcado-texto p{
+    margin: 5px;
+}
+.contenedor-ahorcado-texto button{
+    margin: 5px;
+    padding: 10px;
+}
+.btn-ahorcado-izquierda{
+    color: #2A7AE4;
+    border-color: #2A7AE4; 
+    border: 1px solid;
+}
+.contenedor-ahorcado-texto .btn-ahorcado-derecha{
+    color: #ffffff;
+    background-color: #2A7AE4;
+    border: none;
+    padding: 11px;
+}
+
+/* ENCRIPTADOR */
+.contenedor__encriptador{
+    display: flex;
+    align-items: center;
+}
+.contenedor__texto-encriptador{
+    padding: 50px;
+}
+.contenedor__img-encriptador{
+    display: flex;
+    width: 767px;
+}
+.img-encriptador{
+    max-width: 100%;
+    max-height: 100%;
+}
+.contenedor__texto-encriptador h2{
+    font-size: 22px;
+    margin: 5px 0;
+}
+.contenedor__texto-encriptador p{
+    margin: 5px 0;
+}
+.contenedor__texto-encriptador button{
+    margin: 5px;
+    padding: 10px;
+}
+.btn-encriptador-izquierda{
+    color: #2A7AE4;
+    border-color: #2A7AE4; 
+    border: 1px solid;
+}
+.contenedor__texto-encriptador .btn-encriptador-derecha{
+    color: #ffffff;
+    background-color: #2A7AE4;
+    border: none;
+    padding: 11px;
+}
+
+ 

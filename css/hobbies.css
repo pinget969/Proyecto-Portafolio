@@ -5,11 +5,7 @@
 .contenedor__hobbies{
     display: block;
 }
-.Hobbies__titulo{
-    display: flex;
-    justify-content: center;
-    padding: 15px;
-}
+
 .contenedor_iconos_hobbies{
     display: flex;
     justify-content: center;

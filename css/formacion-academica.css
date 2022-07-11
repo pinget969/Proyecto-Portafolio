@@ -9,24 +9,29 @@
 .contenedor__formacion-academica{
     display: block
 }
-.formacion_titulo{
-    display: flex;
-    justify-content: center;
-}
+
 .contenedor_del_contenedor__formacion-academica{
     display: flex;
     margin: 10px;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+ 
+
 }
+
 .contenedor__iconos-formacion-academica{
     background-color: var(--contenedor__iconos-skills);
-    width: 286px;
-    height: 286px;
+    height: 200px;
+    width: 95%;
     margin: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 10px;
+}
+.img__formacion-academica{
+    max-width: 100%;
+    max-height: 100%;
 }
 .nombre-academia-formacion{
     font-size: 22px;

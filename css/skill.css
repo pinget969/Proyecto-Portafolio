@@ -5,11 +5,7 @@
 .contenedor-skill{
     display: block;
 }
-.skills__titulo{
-    display: flex;
-    justify-content: center;
-    padding: 15px;
-}
+
 .skill__iconos{
     display: flex;
     justify-content: center;

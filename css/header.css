@@ -15,13 +15,8 @@
     text-decoration: none;
     color: var(--header-color-nav);
 }
-.header__cabecera{
-    display: flex;
-    padding: 30px;
-}
-.contenedor__header__titulo{
-    padding: 30px;
-}
+ 
+
 .header__titulo{
     font-size: 25px;
     color: var(--header-color-h1);
@@ -40,6 +35,33 @@
     text-decoration: none;
     color: var(--header-color-p-a);
 
+}
+
+/* header2 */
+.header__cabecera{
+    display: flex;
+    margin: 50px;
+    
+}
+ 
+.contenedor__header__titulo{
+    padding: 20px;
+    width: 60%;
+}
+.contenedor__img-header{
+    margin: 20px;
+}
+.contenedor__header{
+    display: flex;
+}
+.texto-header{
+    display: flex;
+    width: 1024px;
+    justify-content: space-around;
+}
+.img__header{
+    display: flex;
+     
 }
 
 

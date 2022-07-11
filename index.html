@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/bases.css">
@@ -14,6 +15,9 @@
     <link rel="stylesheet" href="css/skill.css">
     <link rel="stylesheet" href="css/hobbies.css">
     <link rel="stylesheet" href="css/formacion-academica.css">
+    <link rel="stylesheet" href="css/exp-laboral.css">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
     <header>
@@ -34,17 +38,20 @@
             <div class="texto-header">
                 <div class="contenedor__header__titulo">
                     <h1 class="header__titulo">Hola, mi nombre es Ford... Ricardo Ford. Soy de MIAMIIIII</h1>
-                    <p class="header__texto">Quien te conoce Chocolante Wonka. Actualmente estoy participando del proyecto Oracle ONE en Alura Latam.</p>
-                 <div class="contenedor__vinculo">
-                    <a href="#">Github</a>
-                    <a href="#">Linkedin</a>
-                    <a href="#">Instagram</a>
-                    <a href="#">Curriculo</a>
-                 </div>
-                    
+                    <p class="header__texto">Quien te conoce Chocolante Wonka. Actualmente estoy participando del proyecto
+                        Oracle ONE en Alura Latam.</p>
+                    <div class="contenedor__vinculo">
+                        <a href="#">Github</a>
+                        <a href="#">Linkedin</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Curriculo</a>
+                    </div>
+                </div>
+                <div class="contenedor__img-header">
+                    <img class="img__header" src="img/fort-miami.jpg" alt="">
                 </div>
             </div>
-            <div class="img-header"><img src="img/fort-miami.jpg" alt=""></div>
+        
         </section>
     </header>
     <main>
@@ -143,25 +150,25 @@
                 <div class="contenedor__formacion-academica">
                     <h1 class="nombre__titulo formacion_titulo">Formación académica</h1>
                     <div class="contenedor_del_contenedor__formacion-academica">
-                        <div >
+                        <div class="contenedor__contenido-formacion-academica">
                             <div class="contenedor__iconos-formacion-academica">
-                                <img src="img/chocolate.png" alt="">
+                                <img class="img__formacion-academica" src="img/chocolate.png" alt="">
                             </div>
                             <p class="nombre-academia-formacion">Posgrado en design</p>
                             <p class="nombre-estado-formacion">En curso - UFRJ</p>
                         </div>
                         
-                        <div >
+                        <div class="contenedor__contenido-formacion-academica">
                             <div class="contenedor__iconos-formacion-academica">
-                                <img src="img/chocolate.png" alt="">
+                                <img class="img__formacion-academica" src="img/chocolate.png" alt="">
                             </div>
                             <p class="nombre-academia-formacion">Posgrado en design</p>
                             <p class="nombre-estado-formacion">En curso - UFRJ</p>
                         </div>
 
-                        <div >
+                        <div class="contenedor__contenido-formacion-academica">
                             <div class="contenedor__iconos-formacion-academica">
-                                <img src="img/chocolate.png" alt="">
+                                <img class="img__formacion-academica" src="img/chocolate.png" alt="">
                             </div>
                             <p class="nombre-academia-formacion">Posgrado en design</p>
                             <p class="nombre-estado-formacion">En curso - UFRJ</p>
@@ -170,53 +177,76 @@
                 </div>
             </div>
         </section>
-        <section class="experiencia profesional">
+        <section class="experiencia_profesional">
             <div class="contenedor">
                 <div class="contenedor__principal__ahorcado">
-                    <h1 class="nombre__titulo">Experiencia profesional</h1>
+                    <h1 class="nombre__titulo experiencia-laboral-titulo">Experiencia profesional</h1>
                     <div class="contenedor__ahorcado">
-                        <img src="img/ahorcado-principal.png" alt=""> <!--GIF-->
-                        <h2>Encriptador de texto</h2>
-                        <p>Challenge Alura Codificador</p>
-                        <div class="ahorcado__btn">
-                            <button>Repositorio</button>
-                            <button>Ver demo</button>
+                        <div class="contenedor__img-ahorcado">
+                            <img class="img__ahorcado" src="img/ahorcado-principal.png" alt=""> <!--GIF ?-->
+                        </div>
+                        <div class="contenedor-ahorcado-texto">
+                            <h2>Juego del Ahorcado</h2>
+                            <p>Challenge Alura Codificador</p>
+                            <p>HTML CSS JS</p>
+                            <button class="btn-ahorcado-izquierda">Repositorio</button>
+                            <button class="btn-ahorcado-derecha">Ver demo</button>
                         </div>
                     </div>
                 </div>
-                <div class="contenedor__juego-win__ahorcado">
-                    <h2>Juego creado con HTML y JavaScript</h2>
-                    <p>Challenge Oracle</p>
-                    <div class="ahorcado__btn">
-                        <button>Repositorio</button>
-                        <button>Ver demo</button>
-                    </div>
-                    <img src="img/ahoracado-juego.png" alt="">
+                    <div class="contenedor__encriptador">
+                        <div class="contenedor__texto-encriptador">
+                            <h2>Encriptador de Texto</h2>
+                            <p>Challenge Oracle-One Netx Education</p>
+                            <p>HTML CSS JS</p>      
+                            <button class="btn-encriptador-izquierda">Repositorio</button>
+                            <button class="btn-encriptador-derecha">Ver demo</button>
+                        </div>
+                        <div class="contenedor__img-encriptador" >
+                            <img class="img-encriptador" src="img/ahoracado-juego.png" alt="">
+                        </div>
                 </div>
             </div>
         </section>
         <section class="contacto">
             <div class="contenedor">
                 <div class="contenedor__contacto">
-                    <img src="img/telefono-chocolate.jpg" alt="">
-                    <h2 class="nombre__titulo">Contacto</h2>
-                    <p>¿Quieres contactarme? <br> Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
-                    <div>
-                        <form action="">
-                            <input type="text">
-                            <input type="email">
-                            <input type="text">
-                            <textarea name="" id="" cols="30" rows="10"></textarea>
-                            <button type="submit">Enviar mensaje</button>
+                    <div class="contenedor__img-contacto">
+                        <img src="img/telefono-chocolate.jpg" alt="">
+                    </div>
+                    <div class="contenedor__texto-contacto">
+                    <h2 class="nombre__titulo contacto__titulo">Contacto</h2>
+                    <p class="texto-contato">¿Quieres contactarme? </p>
+                    <p class="texto-contato">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible.</p>
+                        <form class="formulario-contacto" action="">
+                            <div class="form-floating mb-3">
+                                <input  type="text" class="form-control" id="floatingname" placeholder="name">
+                                <label for="floatingname">Nombre</label>
+                              </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                                <label for="floatingInput">Email</label>
+                              </div>
+                              <div class="form-floating mb-3">
+                                <input  type="text" class="form-control" id="floatingaffair" placeholder="affair">
+                                <label for="floatingaffair">Asunto</label>
+                              </div>
+                              <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                <label for="floatingTextarea2">Mensaje</label>
+                              </div>
+                            <button class="btn-form" type="submit" value="enviar">Enviar mensaje</button>
                         </form>
                     </div>
                 </div>
-
             </div>
         </section>
     </main>
     <footer>
-        <h2 class="titulo-final">&copy; NJ| Pinget</h2> <!-- propietario-->
+        <div class="contenedor-footer">
+            <h2 class="titulo-final">&copy; NJ| Pinget</h2> <!-- propietario-->
+        </div>
+        
     </footer>
 
 
