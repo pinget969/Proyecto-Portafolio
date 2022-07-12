@@ -2,10 +2,10 @@
 :root {
     /* Colores Header */
     --variable: valor;
-    --header-color-nav: #678c96;
+    --header-color-nav: #3a535a;
     --header-color-logo: rgb(46, 46, 46);
     --header-color-h1: rgb(38, 41, 41);
-    --header-color-p-a: rgb(121, 121, 121);
+    --header-color-p-a: rgb(78, 78, 78);
 
     /* Colores Titulo */
     --titulo-color-h1:rgb(38, 41, 41);

@@ -1,7 +1,18 @@
+header{
+    width: 100%;
+    height: 600px;
+    background: #DA4453;  /* Quitar*/
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+    background: cover;
+    background-attachment: fixed;   /* efecto imagen / IMAGEN FIJA */
+    position: relative; 
+    background-position: center;
+}
 .contenedor__header{
     display: flex;
     justify-content: space-between;
     padding: 1rem 4rem;
+    align-items: center;
 }
 .contenedor__header .header__logo{
     color: var(--header-color-logo);
@@ -9,13 +20,19 @@
 .menu{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 700px;
 }
 .menu a{
     text-decoration: none;
     color: var(--header-color-nav);
 }
- 
+.menu .contacto_header, .header__logo {
+    color: #ffffff;
+    background-color: #2A7AE4;
+    border: none;
+    padding: 11px;
+}
 
 .header__titulo{
     font-size: 25px;

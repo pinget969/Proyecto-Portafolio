@@ -1,9 +1,11 @@
 .formacion-academica{
     display: flex;
     background-color: var(--formacion-academica-background);
-    height: 581px;
+    padding: 20px 0;
     align-items: center;
     justify-content: center;
+    text-align: center;
+    
 }
 
 .contenedor__formacion-academica{
@@ -39,3 +41,5 @@
 .nombre-academia-formacion, .nombre-estado-formacion{
     margin: 5px;
 }
+
+ 

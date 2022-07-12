@@ -1,6 +1,6 @@
 .hobbies{
     background-color: var(--hobbies__background);
-    padding: 50px;
+    padding: 30px 50px;
 }
 .contenedor__hobbies{
     display: block;
@@ -20,4 +20,7 @@
      
     align-items: end;
     padding: 10px;
+}
+.img-hobbies{
+    width: 100%;
 }

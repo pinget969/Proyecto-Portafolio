@@ -1,6 +1,18 @@
+.separador{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image:url(../img/digital1.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .skills{
     background-color: var(--skills-background);
-    padding: 50px;
+    padding: 30px 50px;
 }
 .contenedor-skill{
     display: block;
@@ -12,12 +24,15 @@
 }
 .contenedor__iconos-skills{
     background-color: var(--contenedor__iconos-skills);
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     margin: 5px;
     
     display: flex;
      
     align-items: end;
     padding: 10px;
+}
+.icono_html{
+    width: 50%;
 }
