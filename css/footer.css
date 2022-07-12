@@ -1,10 +1,26 @@
 footer{
     display: flex;
-    justify-content: center;
     align-items: center;
     background-color: var(--footer-background);
-    height: 40px;
+    height: 50px;
 }
 .contenedor-footer{
     display: flex;
+}
+.footer__contenido{
+    width: 100%;
+    display: flex;
+}
+.contenido-enlaces{
+    width: 150px;
+}
+.contenedor-dimencionaes-enlaces{
+    justify-content: space-around;
+    display: flex;
+}
+.footer__propietario{
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px;
 }

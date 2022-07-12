@@ -6,10 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
+    <!-- font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&family=Open+Sans:wght@300;400;700&family=Readex+Pro&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&amp;family=M+PLUS+Rounded+1c:wght@300;400;700&amp;display=swap" rel="stylesheet">
+    <!-- bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- css-->
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/bases.css">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/sobre-mi.css">
     <link rel="stylesheet" href="css/titulo.css">
     <link rel="stylesheet" href="css/skill.css">
@@ -67,9 +72,10 @@
             </div>
             </div>
         </section>
-        <section class="separador">
-
-        </section>
+        <!--<section class="separador"> 
+             Buscar imagen más adecuada para continuar!
+             Css en Skills
+        </section>-->
         <section class="skills">
             <div class="contenedor">
                 <div class="contenedor-skill">
@@ -144,26 +150,26 @@
                     <div class="contenedor_del_contenedor__formacion-academica">
                         <div class="contenedor__contenido-formacion-academica">
                             <div class="contenedor__iconos-formacion-academica">
-                                <img class="img__formacion-academica" src="img/chocolate.png" alt="">
+                                <img class="img__formacion-academica" src="img/oracle.jpg" alt="">
                             </div>
-                            <p class="nombre-academia-formacion">Posgrado en design</p>
-                            <p class="nombre-estado-formacion">En curso - UFRJ</p>
+                            <p class="nombre-academia-formacion">ONE Next Education</p>
+                            <p class="nombre-estado-formacion">Bootcamp - En curso - 2022</p>
                         </div>
                         
                         <div class="contenedor__contenido-formacion-academica">
                             <div class="contenedor__iconos-formacion-academica">
-                                <img class="img__formacion-academica" src="img/chocolate.png" alt="">
+                                <img class="img__formacion-academica" src="img/i2t.png" alt="">
                             </div>
-                            <p class="nombre-academia-formacion">Posgrado en design</p>
-                            <p class="nombre-estado-formacion">En curso - UFRJ</p>
+                            <p class="nombre-academia-formacion">Software Solutions</p>
+                            <p class="nombre-estado-formacion">Bootcamp - En curso - 2022</p>
                         </div>
 
                         <div class="contenedor__contenido-formacion-academica">
                             <div class="contenedor__iconos-formacion-academica">
-                                <img class="img__formacion-academica" src="img/chocolate.png" alt="">
+                                <img class="img__formacion-academica" src="img/egg.jpg" alt="">
                             </div>
-                            <p class="nombre-academia-formacion">Posgrado en design</p>
-                            <p class="nombre-estado-formacion">En curso - UFRJ</p>
+                            <p class="nombre-academia-formacion">Aprendizaje cooperativo</p>
+                            <p class="nombre-estado-formacion">Curso - Programación desde 0</p>
                         </div>
                     </div>
                 </div>
@@ -195,7 +201,7 @@
                         </div>
                         <div class="contenedor-ahorcado-texto">
                             <h2>Juego del Ahorcado</h2>
-                            <p>Challenge Alura Codificador</p>
+                            <p>Challenge One + Alura</p>
                             <p>HTML CSS JS</p>
                             <button class="btn-ahorcado-izquierda">Repositorio</button>
                             <button class="btn-ahorcado-derecha">Ver demo</button>
@@ -211,7 +217,23 @@
                             <button class="btn-encriptador-derecha">Ver demo</button>
                         </div>
                         <div class="contenedor__img-encriptador" >
-                            <img class="img-encriptador" src="img/ahoracado-juego.png" alt="">
+                            <!--<img class="img-encriptador" src="img/ahoracado-juego.png" alt=""> -->
+                            <div class="slider">
+                                <ul>
+                                    <li>
+                                        <img src="img/encriptador-1.png" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/encriptador-2.png" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/encriptador-3.png" alt="">
+                                    </li>
+                                    <li>
+                                        <img src="img/encriptador-4.png" alt="">
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                 </div>
             </div>
@@ -220,7 +242,7 @@
             <div class="contenedor">
                 <div class="contenedor__contacto">
                     <div class="contenedor__img-contacto">
-                        <img src="img/telefono-chocolate.jpg" alt="">
+                        <img src="img/email-marketing.png" alt="">
                     </div>
                     <div class="contenedor__texto-contacto">
                     <h2 id="contacto" class="nombre__titulo contacto__titulo">Contacto</h2>
@@ -251,9 +273,21 @@
         </section>
     </main>
     <footer>
-        <div class="contenedor-footer">
-            <h2 class="titulo-final">&copy; NJ| Pinget</h2> <!-- propietario-->
+        <div class="footer__contenido">
+            <div class="footer__propietario">
+                <h2 class="titulo-final">&copy; NJ| Pinget</h2> <!-- propietario -->
+            </div>
+            <div class="contenido-enlaces">
+                <div class="contenedor-dimencionaes-enlaces">
+                    <a href="https://github.com/pinget969"><img class="content-img" src="img/github-logo.png" alt=""></a>
+                    <a href="mailto:njpinget@gmail.com"><img class="content-img" src="img/gmail-logo.png" alt=""></a>
+                    <a href="https://www.linkedin.com/in/nelson-pinget-05a427206/"><img class="content-img" src="img/linkedin-logo.png" alt=""></a>
+                </div>
+                
+            </div> 
+            
         </div>
+        
         
     </footer>
 

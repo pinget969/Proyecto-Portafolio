@@ -20,11 +20,14 @@
  
 
 }
+.ontenedor__contenido-formacion-academica{
+    width: 750px;
+}
 
 .contenedor__iconos-formacion-academica{
     background-color: var(--contenedor__iconos-skills);
     height: 200px;
-    width: 95%;
+    width: 250px;
     margin: 5px;
     display: flex;
     align-items: center;
@@ -40,6 +43,7 @@
 }
 .nombre-academia-formacion, .nombre-estado-formacion{
     margin: 5px;
+    font-family: var(--readex-pro);
 }
 
  

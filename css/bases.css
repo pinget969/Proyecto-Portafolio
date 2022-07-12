@@ -22,4 +22,13 @@
 
     --footer-background: gray;
      
+
+    --readex-pro: "readex Pro", sans-serif;
+    --titulo__m-plus-rounded: "M PLUS Rounded 1c", sans-serif;
+    --open-sans: 'Open sans', sans-serif;
+    --montserrat: 'Montserrat', sans-serif;
+    
+}
+body{
+    font-family: var(--open-sans);
 }

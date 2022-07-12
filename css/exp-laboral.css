@@ -23,9 +23,19 @@
 .contenedor-ahorcado-texto{
     padding: 15px;
 }
-.contenedor-ahorcado-texto h2{
+.contenedor-ahorcado-texto h2 {
     font-size: 22px;
     margin: 5px;
+    font-weight: 600;
+    background: var(--header-color-logo);
+    background: linear-gradient(90deg, #3e2ae4, #32a9fd);
+    font-family: system-ui;
+    font-size: 1.4rem;
+    line-height: 115%;
+    font-weight: bolder;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .contenedor-ahorcado-texto p{
     margin: 5px;
@@ -62,9 +72,19 @@
     max-width: 100%;
     max-height: 100%;
 }
-.contenedor__texto-encriptador h2{
+.contenedor__texto-encriptador h2 {
     font-size: 22px;
     margin: 5px 0;
+    font-weight: 600;
+    background: var(--header-color-logo);
+    background: linear-gradient(90deg, #3e2ae4, #32a9fd);
+    font-family: system-ui;
+    font-size: 1.4rem;
+    line-height: 115%;
+    font-weight: bolder;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .contenedor__texto-encriptador p{
     margin: 5px 0;

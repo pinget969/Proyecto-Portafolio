@@ -1,29 +1,49 @@
 .nombre__titulo{
     color: var(--titulo-color-h1);
     font-size: 32px;
+    color: #327afd;
+    font-family: var(--titulo__m-plus-rounded);
+    font-weight: bolder;
 }
 .header__titulo{
     font-size: 52px;
+    
 }
 .skills__titulo{
     display: flex;
     justify-content: center;
     padding: 15px;
+    color: #327afd;
+    font-family: var(--titulo__m-plus-rounded);
+    font-weight: bolder;
 }
 .Hobbies__titulo{
     display: flex;
     justify-content: center;
     padding: 15px;
+    color: #327afd;
+    font-family: var(--titulo__m-plus-rounded);
+    font-weight: bolder;
 }
 .formacion_titulo{
     display: flex;
     justify-content: center;
+    color: #327afd;
+    font-family: var(--titulo__m-plus-rounded);
+    font-weight: bolder;
 }
 .experiencia-laboral-titulo{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #327afd;
+    font-family: var(--titulo__m-plus-rounded);
+    font-weight: bolder;
+    padding: 0 0 20px 0;
 }
 .contacto__titulo{
     margin: 15px;
+    color: #327afd;
+    font-family: var(--titulo__m-plus-rounded);
+    font-weight: bolder;
 }

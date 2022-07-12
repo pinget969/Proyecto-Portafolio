@@ -17,6 +17,18 @@ header{
 .contenedor__header .header__logo{
     color: var(--header-color-logo);
 }
+.header__logo{
+  background: var(--header-color-logo);
+  background: linear-gradient(90deg, #3e2ae4, #32a9fd); 
+  font-family: system-ui;
+  font-size: 1.4rem;
+  line-height: 115%;
+  font-weight: bolder;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .menu{
     display: flex;
     justify-content: space-around;
