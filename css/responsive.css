@@ -1,0 +1,150 @@
+@media  (max-width: 780px) {
+    
+/*HEADER */
+header{
+    height: 100%;
+}
+.header__cabecera{
+    margin: 0px;
+}
+.texto-header {
+    display: flex;
+    display: block;
+    width: 100%;
+    justify-content: space-around;
+}
+.header__logo .contenedor__header{
+    flex-direction: column;
+    align-items: initial;
+    text-align: center;
+}
+.contenedor__header{
+    flex-direction: column;
+}
+.menu{
+    flex-direction: column;
+    width: initial;
+}
+.header-nav-menu{
+    padding: 4px;
+    padding: 4px;
+    transition: .5s;
+    display: block;
+    border-bottom: 1px solid #9799A6;
+}
+.contenedor__header__titulo{
+    width: 100%;
+     
+}
+.header__titulo{
+    font-size: 24px;
+}
+.header__texto{
+    font-size: 18px;
+}
+.contenedor__vinculo{
+    font-size: 12px;
+}
+.contenedor__img-header{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+/* SOBRE MI */
+.contenedor__sobre-mi{
+    width: 100%;
+}
+
+/* SKILLS */
+.skill__iconos{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenedor__iconos-skills{
+    display: flex;
+    width: 40%;
+}
+.contenedor_del_contenedor__formacion-academica{
+    flex-direction: column;
+}
+/* Experiencia profesional */
+/* Ahorcado */
+.experiencia_profesional{
+    padding: 0px;
+}
+.experiencia-laboral-titulo{
+    padding: 20px 0 20px 0;
+    font-size: 24px;
+}
+.contenedor-ahorcado-texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contenedor-ahorcado-texto h2{
+    font-size: 1.2rem;
+}
+.contenedor__principal__ahorcado{
+    padding: 0px;
+}
+.contenedor__ahorcado{
+    flex-direction: column;
+    margin: 0px;
+}
+.contenedor__img-ahorcado{
+    display: flex;
+}
+.contenedor__img-ahorcado{
+    width: 100%;
+}
+/* Encriptador */
+.contenedor__encriptador{
+    flex-direction: column;
+}
+.contenedor__img-encriptador{
+    display: flex;
+    width: 100%;   
+}
+.contenedor__texto-encriptador h2{
+    font-size: 1.2rem;
+}
+
+/* Contacto */
+
+.contenedor__contacto{
+    flex-direction: column;
+}
+.contenedor__img-contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img__email-contacto{
+    height: 200px;
+}
+.contenedor__texto-encriptador{
+    padding: 45px;
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.texto__encriptador{
+    display: flex;
+}
+/* Footer */
+.footer__contenido{
+    align-items: center;
+}
+.contenedor-dimencionaes-enlaces{
+    height: 20px;
+     
+}
+.contenedor-dimencionaes-enlaces a{
+    display: flex;
+}
+.titulo-final{
+    font-size: 10px;
+}
+}
+
