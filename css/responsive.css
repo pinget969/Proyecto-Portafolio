@@ -67,6 +67,10 @@ header{
 .contenedor_del_contenedor__formacion-academica{
     flex-direction: column;
 }
+/* Hobbies */
+.hobbies_nombre_icono{
+    width: 40px;
+}
 /* Experiencia profesional */
 /* Ahorcado */
 .experiencia_profesional{
