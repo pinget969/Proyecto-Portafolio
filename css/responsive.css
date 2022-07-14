@@ -50,6 +50,30 @@ header{
     justify-content: center;
     display: flex;
 }
+.pdfview_pdf{
+    opacity: 0;
+    display: none;
+}
+.modaal{
+    display: flex;
+    flex-direction: column;
+    height: initial;
+    height: none;
+    padding: 5px 0px;
+    
+}
+.contenedor__img_cv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_cv{
+    display: flex;
+    height: 100%;
+    width: 54%;
+}
+ 
+ 
 /* SOBRE MI */
 .contenedor__sobre-mi{
     width: 100%;
@@ -151,4 +175,10 @@ header{
     font-size: 10px;
 }
 }
-
+@media  (max-width: 450px) {
+    .img_cv{
+        display: flex;
+        height: 100%;
+        width: 94%;
+    }
+}
