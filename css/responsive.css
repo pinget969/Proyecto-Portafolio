@@ -7,6 +7,9 @@ header{
 .header__cabecera{
     margin: 0px;
 }
+.img__header{
+    display: none;
+}
 .texto-header {
     display: flex;
     display: block;
