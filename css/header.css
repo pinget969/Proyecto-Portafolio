@@ -51,9 +51,11 @@ header{
     color: var(--header-color-h1);
 }
 .header__texto{
-    padding: 5px;
+    padding: 15px;
+    margin: 10px;
     color: var(--header-color-p-a);
     font-size: 22px;
+    line-height: 30px;
 }
 .contenedor__vinculo{
     display: flex;
@@ -70,28 +72,32 @@ header{
 .header__cabecera{
     display: flex;
     margin: 50px;
-    
+    justify-content: center;
 }
- 
+
 .contenedor__header__titulo{
     padding: 20px;
     width: 60%;
 }
 .contenedor__img-header{
     margin: 20px;
+    width: 40%;
+     
+}
+.img__header{
+    display: flex;
+    width: 80%;
 }
 .contenedor__header{
     display: flex;
 }
 .texto-header{
     display: flex;
-    width: 1024px;
+    width: 1224px;
     justify-content: space-around;
+
 }
-.img__header{
-    display: flex;
-     
-}
+
 /* CV */
 .btn_cv_cerrar {
     background-color: #47a386;
