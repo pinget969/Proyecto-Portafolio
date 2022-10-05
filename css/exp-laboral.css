@@ -87,6 +87,57 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.titulo_hotel{
+    display: flex;
+    justify-content: center;
+    
+}
+.contenedor_sub_titulo_hotel{
+    color: #2A7AE4;
+    display: flex;
+    font-size: 17px;
+    margin: auto;
+    max-width: 980px;
+    padding: 12px;
+}
+.text_hotel{
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+    border-color: rgb(146, 202, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    max-width: 980px;
+    margin: auto;
+    width: 100%;
+}
+.text_hotel p{
+    padding: 10px 2px;
+    width: 300px;
+}
+.contenedor_video_hotel{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    max-width: 640px;
+}
+.video_hotel{
+    width: 100%;
+    padding: 5px;
+}
+.repo_btn_repo_hotel{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+.btn_repo_hotel{
+    
+    background-color: #ffbc0d;
+    border-color: transparent;
+}
+.btn_repo_hotel a{
+     color: #0d6efd;
+    text-decoration: none;
+}
 .contenedor__texto-encriptador p{
     margin: 5px 0;
 }
